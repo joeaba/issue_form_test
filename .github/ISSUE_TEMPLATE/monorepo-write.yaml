@@ -33,11 +33,3 @@ body:
       placeholder: ex. https://github.com/solana-labs/contributor-access-policy/issues/X
     validations:
       required: true  
-  - type: input
-    id: previous_access_issue
-    attributes:
-      label: Previously approved access issue
-      description: Link to previously approved access issue
-      placeholder: ex. https://github.com/solana-labs/contributor-access-policy/issues/X
-    validations:
-      required: true  
