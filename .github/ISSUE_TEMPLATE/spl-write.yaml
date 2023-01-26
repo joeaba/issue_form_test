@@ -1,6 +1,6 @@
-name: SPL Triage Access Request
-description: Issue template to request Level 1 access to the SPL repository
-title: "Requesting Access Level 1 for [User] to the SPL repository"
+name: SPL Write Access Request
+description: Issue template to request Level 2 access to the SPL repository
+title: "Requesting Access Level 2 for [User] to the SPL repository"
 labels: ["access"]
 assignees:
   - joeaba
@@ -25,3 +25,11 @@ body:
       placeholder: ex. joe#1234
     validations:
       required: true
+  - type: input
+    id: previous_access_issue
+    attributes:
+      label: Previously approved access issue
+      description: Link to previously approved access issue
+      placeholder: ex. https://github.com/solana-labs/contributor-access-policy/issues/X
+    validations:
+      required: true  
